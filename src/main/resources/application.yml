@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: Fraud Service
+
+server:
+  port: 8084
