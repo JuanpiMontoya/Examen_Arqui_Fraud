@@ -13,4 +13,8 @@ public class TarjetaService {
     public boolean estaEnListaNegra(String numeroTarjeta) {
         return listaNegra.contains(numeroTarjeta);
     }
+
+    public List<String> obtenerListaNegra() {
+        return listaNegra;
+    }
 }
